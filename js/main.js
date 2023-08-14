@@ -713,7 +713,7 @@
         document.getElementById("E4").src=URL4;
     }));
 
-
+    
     document.querySelector("#closer").addEventListener('click', () => {
         document.querySelector(".ContEmergenteSlider").style.display = "none";
         document.getElementById("E1").src=" ";
