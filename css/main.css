@@ -3856,7 +3856,7 @@ footer .row {
 .s-galeria{
     padding: 2% 0%;
     text-align: center;
-    height: 90vh;
+    height: 850px;
     background: rgb(255,255,255);
 background: radial-gradient(circle, rgba(255, 255, 255, 0.171) 0%, rgba(0,0,0,1) 100%);
 }
