@@ -1,0 +1,162 @@
+body{
+    background-color: white;
+    position: relative;
+}
+.logoClassPage{
+    background-color: #7f89c3;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoClassPage img{
+    width: 4em;
+   
+}
+
+.ContainerQuad{
+    position: relative;
+    height: 35em;
+}
+
+.QuadClassPage{
+    position: absolute;
+    
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40em;
+    width: 60em;
+    background-color: black;
+   
+}
+
+.lumsQuad{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.imgClassPage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.itemClassPage{
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+}
+.header-menu-toggle{
+    color: white;
+}
+
+.superClassPage{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.356);
+    flex-direction: column;
+    transition: 0.5s;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.itemClassPage:hover .superClassPage{
+    opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .QuadClassPage{
+        top: 40%;
+        height: 33.33em;
+        width: 50em;
+    }
+
+    .ContainerQuad{
+        
+        height: 25em;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+
+    .QuadClassPage{
+        top: 40%;
+        height: 30em;
+        width: 45em;
+    }
+
+  
+}
+@media only screen and (max-width: 800px) {
+
+    .QuadClassPage{
+        top: 40%;
+        height: 26.66em;
+        width: 40em;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .QuadClassPage{
+        top: 30%;
+        height: 23.33em;
+        width: 35em;
+    }
+
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .QuadClassPage{
+        top: 10%;
+        height: 20em;
+        width: 30em;
+    }
+
+    .logoClassPage{
+        
+        height: 50%;
+        
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .QuadClassPage{
+        top: 20%;
+        height: 27em;
+        width: 23em;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .QuadClassPage{
+        top: 20%;
+        height: 30em;
+        width: 19em;
+    }
+
+
+}
