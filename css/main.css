@@ -2294,7 +2294,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding: 9% 0em;
+    padding: 6% 0em;
     background-image: url(../images/empresa-bg.png);
     color: #010507;
     position: relative;
@@ -3040,7 +3040,7 @@ html.no-csstransitions .home-content__main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
-    padding: 4% 0%;
+    padding: 5% 0%;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
     text-align: center;
@@ -3728,6 +3728,7 @@ footer .row {
     font-size: 3.8em;
     line-height: 90%;
     font-family: 'EncodedBold'; 
+    width: 70%;
     margin-top: 0; 
     margin-bottom: 3%; 
     color: white;
@@ -3736,10 +3737,10 @@ footer .row {
     font-size: 1em;
     font-family: 'EncodedM'; 
     margin: 0% 18%; 
-    line-height:200%; 
+    line-height:180%; 
     color: white;
-    text-align: justify;
-    text-align-last: center;
+    
+    text-align: center;
 }
 
 
@@ -3843,9 +3844,11 @@ footer .row {
     font-size: 2em;
     font-family: 'EncodedBold';
     color: #000000;
+    
 }
 .textPInfo{
     font-size: 1.2em;
+    line-height: 125%;
     font-family: 'EncodedM';
     color: #000000;
 }
@@ -3854,9 +3857,9 @@ footer .row {
 /* GALERIA */
 
 .s-galeria{
-    padding: 2% 0%;
+    padding: 5% 0%;
     text-align: center;
-    height: 850px;
+    height: 878px;
     background: rgb(255,255,255);
 background: radial-gradient(circle, rgba(255, 255, 255, 0.171) 0%, rgba(0,0,0,1) 100%);
 }
@@ -4017,7 +4020,7 @@ a {
   }
 
   .BackButton p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'EncodedSBold';
     color: white;
     margin: 0%;
@@ -4029,7 +4032,9 @@ a {
     .descEmpresa{
         margin: 0% 0%;
     }
-
+    .subEmpresa{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 1300px) {
     .stylishItem{
@@ -4044,7 +4049,7 @@ a {
     }
 
     .subEmpresa{
-        font-size: 3em;
+        font-size: 3.5em;
     }
 
     .textsProductos{
@@ -4064,8 +4069,17 @@ a {
     }
 }
 
+@media only screen and (max-width: 1100px) {
+
+    .subEmpresa{
+        font-size: 3em;
+    }
+}
 
 @media only screen and (max-width: 900px) {
+    .descEmpresa{
+        font-size: 0.9em;
+    }
     .imgQuad{
         height: 45em;
         width: 30em;
@@ -4105,7 +4119,7 @@ a {
 @media only screen and (max-width: 800px) {
   
     .subEmpresa{
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .dropdown-content{
@@ -4119,6 +4133,10 @@ a {
 
 @media only screen and (max-width: 700px) {
   
+
+    footer p{
+        font-size: 0.8em;
+    }
     .contProductos{
         width: 90%;
     }
@@ -4142,7 +4160,7 @@ a {
 @media only screen and (max-width: 600px) {
   
     .subEmpresa{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .descEmpresa{
         font-size: 0.9em;
@@ -4155,6 +4173,12 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
+    .subEmpresa{
+        font-size: 1.5em;
+    }
+    .descEmpresa{
+        font-size: 0.8em;
+    }
     .BackButton p{
         display: none;
         
