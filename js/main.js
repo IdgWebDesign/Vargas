@@ -329,30 +329,30 @@
 
         switch (IDEl){
             case 'gastr':
-                color= "#ec5f78";
+                color= "#ec5f78d4";
                 
             break
 
             case 'pack':
-                color= "#23b9ce";
+                color= "#23b9ced4";
                 
             break
             
             case 'merch':
-                color= "#96c11f";
+                color= "#96c11fd4";
                 
             break
 
             case 'tex':
-                color= "#f18931";
+                color= "#f18931d4";
                 
             break
             case 'marr':
-                color= "#7f89c3";
+                color= "#7f89c3d4";
                 
             break
             case 'PE':
-                color= "#ba71ac";
+                color= "#ba71acd4";
                 
             break
         }
