@@ -543,25 +543,7 @@
 
 
 
-    $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-            
-            loop:true,
-            margin:10,
-            dots:false,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:1
-                },
-                1000:{
-                    items:1
-                }
-            }
-        })
-    });
+    
       
    /* Initialize
     * ------------------------------------------------------ */
@@ -713,16 +695,7 @@
         document.getElementById("E4").src=URL4;
     }));
 
-    
-    document.querySelector("#closer").addEventListener('click', () => {
-        document.querySelector(".ContEmergenteSlider").style.display = "none";
-        document.getElementById("E1").src=" ";
-        document.getElementById("E2").src=" ";
-        document.getElementById("E3").src=" ";
-        document.getElementById("E4").src=" ";
-
-    });         
-    const swiper = new Swiper('.swiper', {
+    const swiper1 = new Swiper('.swiper', {
         // Optional parameters
         direction: 'horizontal',
         loop: true,
@@ -743,5 +716,36 @@
           el: '.swiper-scrollbar',
         },
       });
+
+      const swiper2=  new Swiper('.swiperMENU', {
+       // Optional parameters
+       direction: 'horizontal',
+       loop: true,
+       
+       // If we need pagination
+       pagination: {
+         el: '.swiper-pagination2',
+       },
+     
+       // Navigation arrows
+       navigation: {
+         nextEl: '.swiper-button-next2',
+         prevEl: '.swiper-button-prev2',
+       },
+     
+       // And if we need scrollbar
+       scrollbar: {
+         el: '.swiper-scrollbar2',
+       },
+      });
+    document.querySelector("#closer").addEventListener('click', () => {
+        document.querySelector(".ContEmergenteSlider").style.display = "none";
+        document.getElementById("E1").src=" ";
+        document.getElementById("E2").src=" ";
+        document.getElementById("E3").src=" ";
+        document.getElementById("E4").src=" ";
+
+    });         
+   
         
 })(jQuery);

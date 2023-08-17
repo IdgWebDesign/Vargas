@@ -1500,11 +1500,11 @@ color: #f18931 !important;
 .stylishItem img{
     height: 80%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .swiper-button-next, .swiper-button-prev{
-    color: #f18931 !important;
+    color: #9b9b9b !important;
 }
 
 .header-nav p {
@@ -3557,7 +3557,7 @@ footer .row {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255, 231, 98, 0.082) 36%, rgb(0, 0, 0, 0.54) 100%);
+    background: black;
     backdrop-filter: blur(2px);
     top: 0;
     left: 0;
@@ -3654,6 +3654,15 @@ footer .row {
     font-family: 'EncodedBold'; 
     width: 70%;
     margin-top: 0; 
+    
+    color: white;
+}
+.subEmpresaSM{
+    font-size: 1.5em;
+    line-height: 90%;
+    font-family: 'EncodedLight'; 
+    width: 50%;
+    margin-top: 1%; 
     margin-bottom: 3%; 
     color: white;
 }
@@ -3747,7 +3756,9 @@ footer .row {
 }
 
 .TextAsign {
+    margin: 0% 2%;
     margin-top: 2%;
+    margin-bottom: 0%;
     line-height: 100%;
     text-align: center;
     color: white;
@@ -3787,7 +3798,6 @@ footer .row {
 .s-galeria{
     padding: 5% 0%;
     text-align: center;
-    height: 878px;
     background: rgb(255,255,255);
 background: radial-gradient(circle, rgba(255, 255, 255, 0.171) 0%, rgba(0,0,0,1) 100%);
 }
@@ -3855,7 +3865,13 @@ background: radial-gradient(circle, rgba(255, 255, 255, 0.171) 0%, rgba(0,0,0,1)
     line-height: 100%;
     margin-top: 0.5%;
 }
+.swiperContMenu{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
 
+}
 .textInside{
  font-family: "EncodedLight";
  color: white;
@@ -3955,6 +3971,17 @@ a {
     color: white;
     margin: 0%;
   }
+
+  .contVideoGal{
+    width: 40%;
+    height: 700px;
+    margin: auto;
+  }
+  .contVideoGal video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 /*# sourceMappingURL=main.css.map */
 
 /* Media Querys*/
@@ -3965,6 +3992,14 @@ a {
     .subEmpresa{
         width: 100%;
     }
+    .subEmpresaSM{
+        width: 100%;
+    }
+
+    .contVideoGal{
+        width: 60%;
+        height: 650px;
+    }
 }
 @media only screen and (max-width: 1300px) {
     .stylishItem{
@@ -3972,6 +4007,8 @@ a {
         height: 100%;
         margin: auto;
     }
+
+    
 }
 @media only screen and (max-width: 1200px) {
     .titleEmpresa{
@@ -3997,6 +4034,10 @@ a {
     .btnWPP{
         width: 60%;
     }
+
+    .subEmpresaSM{
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -4004,6 +4045,7 @@ a {
     .subEmpresa{
         font-size: 3em;
     }
+    
 }
 
 @media only screen and (max-width: 900px) {
@@ -4016,6 +4058,9 @@ a {
     }
     .subEmpresa{
         font-size: 2.5em;
+    }
+    .subEmpresaSM{
+        font-size: 1.2em;
     }
 
     .textPColor{
@@ -4044,6 +4089,14 @@ a {
     .btnWPP{
         font-size: 1em;
     }
+
+    .IconAsign{
+        width: 15%;
+    }
+
+    .TextAsign{
+        font-size: 0.8em;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -4065,11 +4118,25 @@ a {
         line-height: 140%;
     }
     
+    .swiper-button-next, .swiper-button-prev{
+        display: none !important;
+    }
+
+    
+    .contVideoGal{
+        width: 80%;
+        height: 600px;
+    }
    
 }
 
 @media only screen and (max-width: 700px) {
-  
+    .subEmpresa{
+        font-size: 2.3em;
+    }
+    .subEmpresaSM{
+        font-size: 1.1em;
+    }
 
     footer p{
         font-size: 0.8em;
@@ -4100,12 +4167,19 @@ a {
     .s-home{
         background-image: url(../images/bg-hero.png);
     }
+    .contVideoGal{
+        width: 80%;
+        height: 550px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
   
     .subEmpresa{
-        font-size: 2em;
+        font-size: 1.9em;
+    }
+    .subEmpresaSM{
+        font-size: 0.9em;
     }
     .descEmpresa{
         font-size: 0.9em;
@@ -4113,6 +4187,19 @@ a {
 
     .selectorContact{
         margin-bottom: 4%;
+    }
+
+    .stylishItem img{
+        height: 50%;
+    }
+
+    .textInside{
+        font-size: 0.8em;
+    }
+
+    .contVideoGal{
+        width: 90%;
+        height: 550px;
     }
    
 }
@@ -4125,7 +4212,10 @@ a {
         font-size: 0.8em;
     }
     .subEmpresa{
-        font-size: 1.5em;
+        font-size: 1.4em;
+    }
+    .subEmpresaSM{
+        font-size: 0.8em;
     }
     .descEmpresa{
         font-size: 0.77em;
@@ -4179,5 +4269,14 @@ a {
         width: 80%;
         height: 100%;
         margin: auto;
+    }
+
+    .contVideoGal{
+        width: 90%;
+        height: 500px;
+    }
+
+    .s-galeria{
+        height: 75vh;
     }
 }
