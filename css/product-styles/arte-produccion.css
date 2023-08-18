@@ -1,3 +1,7 @@
+
+
+/* GRAL STYLES */
+
 body{
     background-color: white;
     position: relative;
@@ -81,6 +85,59 @@ body{
 
 
 
+/* CARTAS MENU */
+.estructuralCM{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.autoCont{
+    
+    height: 15em;
+    width: 45em;
+    display: flex;
+}
+
+.itemCM{
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+}
+
+.itemSOLID{
+    width: 33.33%;
+    height: 100%;
+    background-color: #ec5f78;
+    display: flex;
+}
+
+.itemSOLID img{
+    width: 80%;
+    margin: auto;
+
+}
+
+.itemCM img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.itemCM:hover .superClassPage{
+    opacity: 1;
+}
+
+
+/* MEDIA QUERYS */
+
 @media only screen and (max-width: 1000px) {
 
     .QuadClassPage{
@@ -101,6 +158,12 @@ body{
         opacity: 1;
     }
 
+    .autoCont{
+    
+        height: 12em;
+        width: 36em;
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -115,6 +178,28 @@ body{
         scale: 0.8;
     }
 
+    .estructuralCM{
+        flex-direction: row;
+        top: 45%;
+    }
+
+    .autoCont{
+        height: 33em;
+        width: 11em;
+        flex-direction: column;
+    }
+
+    .itemCM{
+        width: 100%;
+        height: 33.33%;
+        
+    }
+    .itemSOLID{
+        width: 100%;
+        height: 33.33%;
+        background-color: #ec5f78;
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -131,6 +216,16 @@ body{
         
     }
 
+    .estructuralCM{
+        flex-direction: row;
+        top: 30%;
+    }
+
+    .autoCont{
+        height: 30em;
+        width: 10em;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -152,5 +247,10 @@ body{
         width: 19em;
     }
 
+    .autoCont{
+        height: 27em;
+        width: 9em;
+        flex-direction: column;
+    }
 
 }
