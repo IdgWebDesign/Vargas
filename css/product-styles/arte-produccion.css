@@ -90,7 +90,7 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 33%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -100,7 +100,7 @@ body{
 .autoCont{
     
     height: 15em;
-    width: 45em;
+    width: 75em;
     display: flex;
 }
 
@@ -113,17 +113,18 @@ body{
 .itemSOLID{
     width: 33.33%;
     height: 100%;
-    background-color: #ec5f78;
+    
     display: flex;
 }
 
 .itemSOLID img{
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 
 }
 
-.itemCM img{
+.act img{
 
     width: 100%;
     height: 100%;
@@ -131,12 +132,137 @@ body{
 
 }
 
-.itemCM:hover .superClassPage{
+.act:hover .superClassPage{
     opacity: 1;
 }
 
 
+
+
+/* La Mesa */
+.itemLM{
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+.itemLMesa{
+    width: 33%;
+    height: 100%;
+    position: relative;
+}
+
+.autoContLM{
+    width: 75em;
+    height: 15em;
+    display: flex;
+}
+.autoContLMesa{
+    width: 45em;
+    height: 15em;
+    margin: auto;
+    
+    display: flex;
+}
+
+.posLM{
+    top: 73%;
+}
+
+
+/* La Barra */
+.autoContLB{
+    width: 30em;
+    height: 15em;
+    display: flex;
+}
+
+.itemLB{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.posLB{
+    top: 15% ;
+}
+
+.posEP{
+    top: 15%;
+}
+
+
+/* El Personal */
+
+.autoContEP{
+    height: 15em;
+    width: 45em;
+    display: flex;
+
+}
+
+
+
 /* MEDIA QUERYS */
+
+@media only screen and (max-width: 1300px) {
+
+    
+    
+    .autoContLM{
+        width: 65em;
+        height: 13em;
+        display: flex;
+    }
+
+    .autoContLMesa{
+        height: 13em;
+        width: 39em;
+    }
+
+    .autoCont{
+        height: 13em;
+        width: 65em;
+    }
+    
+    .autoContEP{
+        height: 13em;
+        width: 39em;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 1100px) {
+
+    
+    
+    .autoContLM{
+        width: 55em;
+        height: 11em;
+        display: flex;
+    }
+
+    .autoContLMesa{
+        height: 11em;
+        width: 33em;
+    }
+    
+    .posLM{
+        top: 68%;
+    }
+    .autoCont{
+        height: 11em;
+        width:55em;
+    }
+    .autoContEP{
+        height: 11em;
+        width: 33em;
+    
+    }
+}
+
+
+
 
 @media only screen and (max-width: 1000px) {
 
@@ -151,6 +277,53 @@ body{
         height: 25em;
     }
 
+    .autoContLM{
+        width: 50em;
+        height: 10em;
+        display: flex;
+    }
+    .autoContLMesa{
+        height: 10em;
+        width: 30em;
+    }
+
+    .posLM{
+        top: 65%;
+    }
+
+    .autoCont{
+        height: 10em;
+        width:50em;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {
+
+    .autoContLM{
+        width: 45em;
+        height: 9em;
+        display: flex;
+    }
+    .autoContLMesa{
+        height: 9em;
+        width: 27em;
+    } 
+
+    .posLM{
+        top: 58%;
+    }
+
+    .autoContLB{
+        width: 24em;
+        height: 12em;
+    }
+
+    .autoCont{
+        height: 9em;
+        width:45em;
+    }
+    
 }
 @media only screen and (max-width: 800px) {
 
@@ -163,6 +336,25 @@ body{
         height: 12em;
         width: 36em;
         display: flex;
+    }
+
+    .autoContLM{
+        width: 40em;
+        height: 8em;
+        display: flex;
+    }
+    .autoContLMesa{
+        height: 8em;
+        width: 24em;
+    } 
+
+    .posLM{
+        top: 58%;
+    }
+
+    .autoCont{
+        height: 8em;
+        width:40em;
     }
 }
 
@@ -180,18 +372,34 @@ body{
 
     .estructuralCM{
         flex-direction: row;
-        top: 45%;
+        top: 90%;
     }
 
     .autoCont{
-        height: 33em;
+        height: 55em;
         width: 11em;
         flex-direction: column;
     }
 
-    .itemCM{
+    .autoContEP{
+        height: 33em;
+        width: 11em;
+        flex-direction: column;
+    
+    }
+
+    .autoContEP .itemCM{
         width: 100%;
         height: 33.33%;
+    }
+
+    .posEP{
+        top: 50%;
+    }
+
+    .itemCM{
+        width: 100%;
+        height: 20%;
         
     }
     .itemSOLID{
@@ -199,6 +407,49 @@ body{
         height: 33.33%;
         background-color: #ec5f78;
         display: flex;
+    }
+
+    .itemLM{
+        width: 100%;
+        height: 20%;
+        position: relative;
+    }
+    .itemLMesa{
+        width: 100%;
+        height: 33.33%;
+        position: relative;
+    }
+    
+    .autoContLM{
+        width: 10em;
+        height: 50em;
+        display: flex;
+        flex-direction: column ;
+    }
+
+    .autoContLMesa{
+        height: 30em;
+        width: 10em;
+        flex-direction: column;
+        margin: auto;
+    } 
+    
+    .posLM{
+        top: 80%;
+    }
+    .autoContLB{
+        flex-direction: column;
+        height: 24em;
+        width: 12em;
+    }
+    .itemLB{
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+    .posLB{
+        top: 30%;
     }
 }
 
@@ -218,13 +469,33 @@ body{
 
     .estructuralCM{
         flex-direction: row;
-        top: 30%;
+        top: 80%;
     }
 
-    .autoCont{
-        height: 30em;
-        width: 10em;
-        flex-direction: column;
+    
+
+    .autoContLM{
+        width: 8em;
+        height: 40em;
+        display: flex;
+        flex-direction: column ;
+    }
+    
+    .autoContLMesa{
+        height: 24em;
+        width: 8em;
+    }
+
+    .posLM{
+        top: 75%;
+    }
+
+    .posLB{
+        top: 20%;
+    }
+
+    .posEP{
+        top: 30%;
     }
 }
 
@@ -236,7 +507,31 @@ body{
         width: 23em;
     }
 
+    .autoContLM{
+        width: 7em;
+        height: 35em;
+        display: flex;
+        flex-direction: column ;
+    }
 
+    .autoContLMesa{
+        height: 21em;
+        width: 7em;
+    }
+
+    .posLM{
+        top: 70%;
+    }
+
+    
+
+    .posLB{
+        top: 20%;
+    }
+
+    .posEP{
+        top: 30%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -247,10 +542,31 @@ body{
         width: 19em;
     }
 
-    .autoCont{
-        height: 27em;
-        width: 9em;
-        flex-direction: column;
+    
+
+    .autoContLM{
+        width: 6em;
+        height: 30em;
+        display: flex;
+        flex-direction: column ;
     }
 
+    .autoContLMesa{
+        height: 18em;
+        width: 6em;
+    }
+
+    .posLM{
+        top: 60%;
+    }
+
+    
+
+    .posLB{
+        top: 20%;
+    }
+
+    .posEP{
+        top: 30%;
+    }
 }

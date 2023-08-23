@@ -85,6 +85,37 @@ body{
     height: 100%;
 }
 
+.estructuralPG {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.autoCont{
+    width: 30em;
+    height: 15em;
+    display: flex;
+}
+
+.itemPG{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.itemPG img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.act:hover .superClassPage{
+    opacity:1;
+}
+
 @media only screen and (max-width: 1000px) {
 
     .QuadClassPage{
@@ -99,6 +130,16 @@ body{
     }
 
 }
+
+@media only screen and (max-width: 900px) {
+
+    .autoCont{
+        width: 24em;
+        height: 12em;
+    }
+
+}
+
 @media only screen and (max-width: 800px) {
     .QuadClassPage{
         top: 27%;
@@ -126,11 +167,19 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
+    .lumsQuad{
+        flex-direction: column;
+        
+    }
 
+    .lumsQuad a{
+        height: 50%;
+        width: 100%;
+    }
     .QuadClassPage{
-        top: 0%;
-        height: 15em;
-        width: 30em;
+        top: 25%;
+        height: 30em;
+        width: 15em;
     }
 
     .logoClassPage{
@@ -139,26 +188,16 @@ body{
         
     }
 
-}
-
-@media only screen and (max-width: 500px) {
-
-    .QuadClassPage{
-        top: 15%;
-        height: 25em;
-        width: 25em;
+    .autoCont{
+        height: 24em;
+        width: 12em;
+        flex-direction: column;
     }
 
-
-}
-
-@media only screen and (max-width: 400px) {
-
-    .QuadClassPage{
-        top: 15%;
-        height: 25em;
-        width: 19em;
+    .itemPG{
+        width: 100%;
+        height: 50%;
     }
 
-
 }
+

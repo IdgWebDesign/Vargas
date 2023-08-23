@@ -126,9 +126,20 @@ body{
 @media only screen and (max-width: 600px) {
 
     .QuadClassPage{
-        top: 10%;
-        height: 20em;
-        width: 30em;
+        display: flex;
+        top: 25%;
+        height: 33em;
+        width: 22em;
+    }
+    .lumsQuad{
+        height: 100%;
+        width: 50%;
+        flex-direction: column;
+    }
+    
+    .itemClassPage{
+        height: 33%;
+        width: 100%;
     }
 
     .logoClassPage{
@@ -139,16 +150,7 @@ body{
 
 }
 
-@media only screen and (max-width: 500px) {
 
-    .QuadClassPage{
-        top: 20%;
-        height: 27em;
-        width: 23em;
-    }
-
-
-}
 
 @media only screen and (max-width: 400px) {
 
