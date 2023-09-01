@@ -1510,7 +1510,7 @@ color: #f18931 !important;
 .header-nav p {
     margin-bottom: 2.7rem;
     font-family: "GothamMedium";
-    text-align: justify;
+    text-align: left;
 }
 
 .header-nav__content {

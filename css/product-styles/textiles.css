@@ -25,9 +25,9 @@ body{
 .QuadClassPage{
     position: absolute;
     
-    top: 37%;
+    top: -10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     height: 40em;
     width: 40em;
     background-color: black;
@@ -81,7 +81,7 @@ body{
 @media only screen and (max-width: 1000px) {
 
     .QuadClassPage{
-        top: 40%;
+        
         height: 35em;
         width: 35em;
     }
@@ -103,7 +103,7 @@ body{
 @media only screen and (max-width: 700px) {
 
     .QuadClassPage{
-        top: 30%;
+       
         height: 30em;
         width: 30em;
     }
@@ -117,7 +117,7 @@ body{
 @media only screen and (max-width: 600px) {
 
     .QuadClassPage{
-        top: 10%;
+        top: -30%;
         height: 25em;
         width: 25em;
     }
@@ -133,7 +133,7 @@ body{
 @media only screen and (max-width: 500px) {
 
     .QuadClassPage{
-        top: 10%;
+        
         height: 23em;
         width: 23em;
     }
@@ -144,7 +144,7 @@ body{
 @media only screen and (max-width: 400px) {
 
     .QuadClassPage{
-        top: 10%;
+        
         height: 19em;
         width: 19em;
     }

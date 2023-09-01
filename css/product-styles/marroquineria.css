@@ -25,9 +25,9 @@ body{
 .QuadClassPage{
     position: absolute;
     
-    top: 37%;
+    top: -10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     height: 40em;
     width: 60em;
     background-color: black;
@@ -80,7 +80,7 @@ body{
 @media only screen and (max-width: 1000px) {
 
     .QuadClassPage{
-        top: 40%;
+        
         height: 33.33em;
         width: 50em;
     }
@@ -94,7 +94,7 @@ body{
 @media only screen and (max-width: 900px) {
 
     .QuadClassPage{
-        top: 40%;
+        
         height: 30em;
         width: 45em;
     }
@@ -104,7 +104,7 @@ body{
 @media only screen and (max-width: 800px) {
 
     .QuadClassPage{
-        top: 40%;
+       
         height: 26.66em;
         width: 40em;
     }
@@ -114,7 +114,7 @@ body{
 @media only screen and (max-width: 700px) {
 
     .QuadClassPage{
-        top: 30%;
+        
         height: 23.33em;
         width: 35em;
     }
@@ -127,7 +127,7 @@ body{
 
     .QuadClassPage{
         display: flex;
-        top: 25%;
+        top: -30%;
         height: 33em;
         width: 22em;
     }
@@ -155,7 +155,7 @@ body{
 @media only screen and (max-width: 400px) {
 
     .QuadClassPage{
-        top: 20%;
+        
         height: 30em;
         width: 19em;
     }
