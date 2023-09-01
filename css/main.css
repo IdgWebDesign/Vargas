@@ -1500,7 +1500,7 @@ color: #f18931 !important;
 .stylishItem img{
     height: 80%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .swiper-button-next, .swiper-button-prev{
@@ -4127,6 +4127,9 @@ a {
         width: 80%;
         height: 600px;
     }
+    .textInside{
+        font-size: 1em;
+    }
    
 }
 
@@ -4287,4 +4290,8 @@ a {
     .s-galeria{
         height: 75vh;
     }
+}
+
+:root {
+    --swiper-navigation-size: 35px;
 }

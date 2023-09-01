@@ -620,13 +620,13 @@
                 URL4="./lamesa/cubind (3).jpg";
             break
             case "BANDEJA":
-                URL1=" ";
+                URL1="./lamesa/bandeja.jpg";
                 URL2="./lamesa/b (1).jpg";
                 URL3="./lamesa/b (2).jpg";
-                URL4=" ";
+                URL4="./lamesa/b (3).jpg";
             break
             case "PORTAD":
-                URL1=" ";
+                URL1=" ./lamesa/portad.jpg";
                 URL2="./lamesa/portad (1).jpg";
                 URL3="./lamesa/portad (2).jpg";
                 URL4="./lamesa/portad (3).jpg";
@@ -651,28 +651,16 @@
             break
 
             case "TENT":
-                URL1="";
+                URL1="./lamesa/reservado.jpg";
                 URL2="./lamesa/res (1).jpg";
                 URL3="./lamesa/res (2).png";
-                URL4="";
+                URL4="./lamesa/res (3).jpg";
             break
             case "TELA":
                 URL1="./lamesa/mantelestela.jpg";
                 URL2="./lamesa/mt (1).jpg";
                 URL3="./lamesa/mt (2).jpg";
                 URL4="./lamesa/mt (3).jpg";
-            break
-            case "BANDEJA":
-                URL1="";
-                URL2="./lamesa/b (1).jpg";
-                URL3="./lamesa/b (2).jpg";
-                URL4="";
-            break
-            case "PORTAD":
-                URL1="";
-                URL2="./lamesa/portad (1).jpg";
-                URL3="./lamesa/portad (2).jpg";
-                URL4="./lamesa/portad (3).jpg";
             break
             case "PORTEL":
                 URL1="./lamesa/portaelementos.jpg";
@@ -682,29 +670,52 @@
             break
             case "PAN":
                 URL1="./lamesa/paneras.jpg";
-                URL2="./lamesa/pan (1).jpg";
+                URL2="./lamesa/pan (1).jpeg";
                 URL3="./lamesa/pan (2).jpg";
                 URL4="./lamesa/pan (3).jpg";
             break
             case "VAJILLA":
                 URL1="./lamesa/vajillalogo.jpg";
-                URL2="./lamesa/vl (1).jpg";
-                URL3="./lamesa/vl (2).jpg";
-                URL4="./lamesa/vl (3).jpg";
+                URL2="./lamesa/vl (1).jpeg";
+                URL3="./lamesa/vl (2).jpeg";
+                URL4="./lamesa/vl (3).jpeg";
+            break
+            case "SERVILLETAS":
+                URL1="./lamesa/serv.jpg";
+                URL2="./lamesa/serv (1).jpg";
+                URL3="./lamesa/serv (1).png";
+                URL4="./lamesa/serv (2).jpg";
+            break
+            case "COPA":
+                URL1="./lamesa/copalogo.jpg";
+                URL2="./lamesa/cl (1).jpg";
+                URL3="./lamesa/cl (2).jpg";
+                URL4="";
             break
 
             //La Barra
             case "BRMS":
-                URL1="";
+                URL1="./labarra/barmat.jpg";
                 URL2="./labarra/brmts (1).jpg";
                 URL3="./labarra/brmts (2).jpg";
                 URL4="./labarra/brmts (3).jpg";
             break
+            case "FRAP":
+                URL1="./labarra/frapera.jpg";
+                URL2="./labarra/fp (1).jpg";
+                URL3="./labarra/fp (2).jpg";
+                URL4="./labarra/fp (3).jpg";
+            break
 
             //El personal
-
+            case "DELANTALES":
+                URL1="./elpersonal/delantal.jpg";
+                URL2="./elpersonal/del (1).jpg";
+                URL3="";
+                URL4="";
+            break
             case "BILL":
-                URL1="";
+                URL1="./elpersonal/billetera.jpg";
                 URL2="./elpersonal/bill (1).jpg";
                 URL3="./elpersonal/bill (2).jpg";
                 URL4="./elpersonal/bill (3).jpg";
@@ -730,22 +741,28 @@
 
             //Bolsas
             case "LIENZO":
-                URL1=" ";
+                URL1="./bolsas/lienzo.jpg";
                 URL2="./bolsas/lien (1).jpg";
                 URL3="./bolsas/lien (2).jpg";
                 URL4="./bolsas/lien (3).jpg";
+            break
+            case "BOLESP":
+                URL1="./bolsas/bolespecial.jpg";
+                URL2="./bolsas/bolesp (1).jpg";
+                URL3="./bolsas/bolesp (2).jpg";
+                URL4="./bolsas/bolesp (3).jpg";
             break
 
 
             //Cajas
             case "MADYCUER":
-                URL1="./cajas/maderacuero.jpg";
+                URL1="";
                 URL2="./cajas/mc (1).jpg";
                 URL3="./cajas/mc (2).jpg";
                 URL4="./cajas/mc (3).jpg";
             break
             case "CARTPREM":
-                URL1=" ";
+                URL1="./cajas/cartonprem.jpg";
                 URL2="./cajas/cp (1).jpg";
                 URL3="./cajas/cp (2).jpg";
                 URL4="./cajas/cp (3).jpg";
@@ -760,11 +777,29 @@
                 URL3="./marroquineria/mat (2).jpg";
                 URL4="./marroquineria/mat (3).jpg";
             break
+            case "MOCHILA":
+                URL1="";
+                URL2="./marroquineria/moch (1).jpg";
+                URL3="./marroquineria/moch (2).jpg";
+                URL4="./marroquineria/moch (3).jpg";
+            break
+            case "BOLSO":
+                URL1="./marroquineria/bolso.jpg";
+                URL2="./marroquineria/bol (1).jpg";
+                URL3="./marroquineria/bol (2).jpg";
+                URL4="";
+            break
+            case "BOLSOBOTELLA":
+                URL1="./marroquineria/bolsobot.jpg";
+                URL2="./marroquineria/bolbot (1).jpg";
+                URL3="./marroquineria/bolbot (2).jpg";
+                URL4="./marroquineria/bolbot (3).jpg";
+            break
             case "NECESER":
-                URL1=" ";
+                URL1="./marroquineria/neceser.jpg";
                 URL2="./marroquineria/nec (1).jpg";
                 URL3="./marroquineria/nec (2).jpg";
-                URL4=" ";
+                URL4="./marroquineria/nec (3).jpg";
             break
 
 
@@ -775,11 +810,37 @@
                 URL3="./textiles/rem (2).jpg";
                 URL4="./textiles/rem (3).jpg";
             break
-            case "CHOM":
+            case "GORRA":
                 URL1="";
+                URL2="./textiles/gor (1).jpg";
+                URL3="./textiles/gor (2).jpg";
+                URL4="";
+            break
+            case "CHOM":
+                URL1="./textiles/chomba.jpg";
                 URL2="./textiles/chom (1).jpg";
                 URL3="./textiles/chom (2).jpg";
                 URL4="";
+            break
+
+            //PROYECTOS ESPECIALES
+            case "CAJASMIR":
+                URL1="pe/caja smir.jpg";
+            break
+            case "CAJAGOR":
+                URL1="pe/gordon.jpg";
+            break
+            case "PACKSUS":
+                URL1="pe/centurion.jpg";
+            break
+            case "LLCUER":
+                URL1="pe/llavero cuero.jpg";
+            break
+            case "TYC":
+                URL1="pe/telaycuero.jpg";
+            break
+            case "CANSMIR":
+                URL1="pe/canasta smir.jpg";
             break
         }
 

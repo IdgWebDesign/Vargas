@@ -3,7 +3,7 @@ body{
     position: relative;
 }
 .logoClassPage{
-    background-color: #ec5f78;
+    background-color: #ba71ac;
     height: 40%;
     width: 100%;
     display: flex;
@@ -22,34 +22,48 @@ body{
     height: 35em;
 }
 
-.QuadClassPage{
+.estructuralPE{
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    
-    top: 37%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 40em;
-    width: 40em;
-    background-color: black;
-   
+    align-items: center;
+
 }
 
-.lumsQuad{
+.autoCont{
+    
+    height: 15em;
+    width: 60em;
     display: flex;
-    height: 50%;
-    width: 100%;
 }
+
 .imgClassPage{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.itemClassPage{
-    position: relative;
-    width: 100%;
+.itemPE{
+    width: 25%;
     height: 100%;
+    position: relative;
 }
+
+.autoContv3{
+    height: 15em;
+    width: 45em;
+    display: flex;
+}
+
+.itemv3{
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+}
+
 .header-menu-toggle{
     color: white;
 }
@@ -70,54 +84,125 @@ body{
     justify-content: center;
 }
 
-.lumsQuad a{
-    width: 50%;
-    height: 100%;
-}
 
-.itemClassPage:hover .superClassPage{
+
+.act:hover .superClassPage{
     opacity: 1;
 }
 
+@media only screen and (max-width: 1300px) {
 
+   
 
+   
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    
+    .autoCont{
+        height: 14em;
+        width:56em;
+    }
+    .autoContv3{
+        height: 14em;
+        width: 42em;
+        display: flex;
+    }
+}
 @media only screen and (max-width: 1000px) {
 
-    .QuadClassPage{
-        top: 40%;
-        height: 35em;
-        width: 35em;
+    .autoCont{
+        height: 13em;
+        width:52em;
     }
 
-    .ContainerQuad{
-        
-        height: 25em;
+    .autoContv3{
+        height: 13em;
+        width: 39em;
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .estructuralPE{
+        top: 20%;
+    }
+    .autoCont{
+        height: 11em;
+        width:44em;
+    }
+    .autoContv3{
+        height: 11em;
+        width: 33em;
+        display: flex;
     }
 
 }
+
 @media only screen and (max-width: 800px) {
 
     .superClassPage{
         opacity: 1;
     }
 
+    .autoCont{
+        height: 10em;
+        width:40em;
+    }
+    .autoContv3{
+        height: 10em;
+        width: 30em;
+        display: flex;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
 
-    .QuadClassPage{
-        top: 30%;
-        height: 30em;
-        width: 30em;
-    }
+    
 
     .IconNav{
         scale: 0.8;
     }
 
+    .autoCont{
+        height: 44em;
+        width: 11em;
+        flex-direction: column;
+    }
+    .itemPE{
+        width: 100%;
+        height: 25%;
+        
+    }
+    .estructuralPE{
+        flex-direction: row;
+        top: 35%;
+        
+    }
+
+    .autoContv3{
+        height: 33em;
+        width: 11em;
+        display: flex;
+        flex-direction: column;
+    }
+    .itemv3{
+        width: 100%;
+        height: 33.33%;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
+    .estructuralPE{
+        flex-direction: row;
+        top: 30%;
+    }
 
     .QuadClassPage{
         top: 10%;
@@ -133,23 +218,31 @@ body{
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
 
-    .QuadClassPage{
-        top: 10%;
-        height: 23em;
-        width: 23em;
+    .estructuralPE{
+        flex-direction: row;
+        top: 15%;
     }
 
 
-}
-
-@media only screen and (max-width: 400px) {
 
     .QuadClassPage{
         top: 10%;
         height: 19em;
         width: 19em;
+    }
+
+    .autoCont{
+        height: 36em;
+        width: 9em;
+        flex-direction: column;
+    }
+    .autoContv3{
+        height: 27em;
+        width: 9em;
+        display: flex;
+        flex-direction: column;
     }
 
 
