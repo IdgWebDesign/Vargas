@@ -1,10 +1,31 @@
+.s-header {
+    width: 100%;
+    height: 96px;
+    background-color: #23b9ce;
+    position: relative;
+    
+    top: 0%;
+    z-index: 500;
+}
+
+.header-logo{
+    top: 65%;
+}
+
+.BackButton{
+    top: 40%;
+}
+
 body{
     background-color: white;
     position: relative;
+    display:flex; 
+    flex-direction:column;
+    min-height: 100vh;
 }
 .logoClassPage{
     background-color: #23b9ce;
-    height: 40%;
+    height: 15%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -13,32 +34,27 @@ body{
 }
 
 .logoClassPage img{
-    width: 4em;
+    width: 3em;
    
 }
 
 .ContainerQuad{
     position: relative;
-    height: 35em;
+    margin-top: 2%;
 }
 
 .QuadClassPage{
-    position: absolute;
     
-    top: -10%;
-    left: 50%;
-    transform: translate(-50%, 0%);
+    
+  margin: auto;
     height: 30em;
     width: 60em;
     background-color: black;
    
 }
 
-.lumsQuad{
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
+
+
 .imgClassPage{
     width: 100%;
     height: 100%;
@@ -177,20 +193,18 @@ body{
         width: 100%;
     }
     .QuadClassPage{
-        top: -30%;
+        
         height: 30em;
         width: 15em;
     }
 
     .logoClassPage{
         
-        height: 50%;
+        height: 25%;
         
     }
 
-    .estructuralPG{
-        top: -30%;
-    }
+    
 
     .autoCont{
         height: 24em;

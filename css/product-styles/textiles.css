@@ -1,10 +1,31 @@
+.s-header {
+    width: 100%;
+    height: 96px;
+    background-color: #f18931;
+    position: relative;
+    
+    top: 0%;
+    z-index: 500;
+}
+
+.header-logo{
+    top: 65%;
+}
+
+.BackButton{
+    top: 40%;
+}
+
 body{
     background-color: white;
     position: relative;
+    display:flex; 
+    flex-direction:column;
+    min-height: 100vh;
 }
 .logoClassPage{
     background-color:#f18931;
-    height: 40%;
+    height: 15%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -19,15 +40,16 @@ body{
 
 .ContainerQuad{
     position: relative;
-    height: 35em;
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .QuadClassPage{
-    position: absolute;
+    margin: auto;
     
-    top: -10%;
-    left: 50%;
-    transform: translate(-50%, 0%);
+
     height: 40em;
     width: 40em;
     background-color: black;
@@ -117,14 +139,14 @@ body{
 @media only screen and (max-width: 600px) {
 
     .QuadClassPage{
-        top: -30%;
+        
         height: 25em;
         width: 25em;
     }
 
     .logoClassPage{
         
-        height: 50%;
+        height: 25%;
         
     }
 

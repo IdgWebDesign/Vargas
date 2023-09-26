@@ -542,7 +542,15 @@
     };
 
 
+    document.getElementById("close").addEventListener('click', () => {
 
+        $('.popON').addClass("popOFF");
+    
+    
+    
+    
+    
+       });
     
       
    /* Initialize

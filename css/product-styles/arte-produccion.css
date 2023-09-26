@@ -2,13 +2,36 @@
 
 /* GRAL STYLES */
 
+.s-header {
+    width: 100%;
+    height: 96px;
+    background-color: #ec5f78;
+    position: relative;
+    
+    top: 0%;
+    z-index: 500;
+}
+
+.header-logo{
+    top: 65%;
+    left: 20%;
+}
+
+.BackButton{
+    top: 40%;
+    right: 20%;
+}
+
 body{
     background-color: white;
     position: relative;
+    display:flex; 
+    flex-direction:column;
+   min-height: 100vh;
 }
 .logoClassPage{
     background-color: #ec5f78;
-    height: 40%;
+    height: 15em;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,24 +40,25 @@ body{
 }
 
 .logoClassPage img{
-    width: 4em;
+    width: 3em;
    
 }
 
 .ContainerQuad{
     position: relative;
-    height: 35em;
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .QuadClassPage{
-    position: absolute;
+    position: block;
+    margin: auto;
     
-    top: -15%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    height: 40em;
-    width: 40em;
-    background-color: black;
+    height: 32em;
+    width: 32em;
+    
    
 }
 
@@ -86,19 +110,10 @@ body{
 
 
 /* CARTAS MENU */
-.estructuralCM{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translate(-50%, 0%);
 
-
-}
 
 .autoCont{
-    
+    margin: 2% auto;
     height: 15em;
     width: 75em;
     display: flex;
@@ -144,6 +159,7 @@ body{
     width: 20%;
     height: 100%;
     position: relative;
+    
 }
 .itemLMesa{
     width: 33%;
@@ -155,15 +171,22 @@ body{
     width: 75em;
     height: 15em;
     display: flex;
+    margin: auto;
 }
 .autoContLMesa{
     width: 45em;
     height: 15em;
-    margin: auto;
     
+    margin: auto;
     display: flex;
 }
 
+.estructuralCM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
 
 
@@ -172,6 +195,7 @@ body{
     width: 30em;
     height: 15em;
     display: flex;
+    margin: auto;
 }
 
 .itemLB{
@@ -180,13 +204,7 @@ body{
     position: relative;
 }
 
-.posLB{
-    top: 15% ;
-}
 
-.posEP{
-    top: 15%;
-}
 
 
 /* El Personal */
@@ -195,7 +213,7 @@ body{
     height: 15em;
     width: 45em;
     display: flex;
-
+    margin: auto;
 }
 
 
@@ -245,9 +263,7 @@ body{
         width: 33em;
     }
     
-    .posLM{
-        top: 68%;
-    }
+   
     .autoCont{
         height: 11em;
         width:55em;
@@ -270,10 +286,7 @@ body{
         width: 35em;
     }
 
-    .ContainerQuad{
-        
-        height: 25em;
-    }
+    
 
     .autoContLM{
         width: 50em;
@@ -285,10 +298,7 @@ body{
         width: 30em;
     }
 
-    .posLM{
-        top: 65%;
-    }
-
+  
     .autoCont{
         height: 10em;
         width:50em;
@@ -308,9 +318,7 @@ body{
         width: 27em;
     } 
 
-    .posLM{
-        top: 58%;
-    }
+    
 
     .autoContLB{
         width: 24em;
@@ -346,9 +354,7 @@ body{
         width: 24em;
     } 
 
-    .posLM{
-        top: 58%;
-    }
+
 
     .autoCont{
         height: 8em;
@@ -368,11 +374,7 @@ body{
         scale: 0.8;
     }
 
-    .estructuralCM{
-        flex-direction: row;
-        top: -20%;
-    }
-
+   
     .autoCont{
         height: 55em;
         width: 11em;
@@ -391,9 +393,6 @@ body{
         height: 33.33%;
     }
 
-    .posEP{
-        top: 50%;
-    }
 
     .itemCM{
         width: 100%;
@@ -423,18 +422,24 @@ body{
         height: 50em;
         display: flex;
         flex-direction: column ;
+        margin: 0;
     }
 
     .autoContLMesa{
         height: 30em;
         width: 10em;
         flex-direction: column;
-        margin: auto;
-    } 
-    
-    .posLM{
-        top: 80%;
+        margin: 0;
     }
+    
+    .estructuralCM{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+   
     .autoContLB{
         flex-direction: column;
         height: 24em;
@@ -446,29 +451,24 @@ body{
         position: relative;
     }
 
-    .posLB{
-        top: 30%;
-    }
+
 }
 
 @media only screen and (max-width: 600px) {
 
     .QuadClassPage{
-        top: -30%;
+      
         height: 25em;
         width: 25em;
     }
 
     .logoClassPage{
         
-        height: 50%;
+        height: 20%;
         
     }
 
-    .estructuralCM{
-        flex-direction: row;
-        top: -25%;
-    }
+  
 
     
 
@@ -484,17 +484,9 @@ body{
         width: 8em;
     }
 
-    .posLM{
-        top: 75%;
-    }
 
-    .posLB{
-        top: 20%;
-    }
 
-    .posEP{
-        top: 30%;
-    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -517,19 +509,7 @@ body{
         width: 7em;
     }
 
-    .posLM{
-        top: 70%;
-    }
-
-    
-
-    .posLB{
-        top: 20%;
-    }
-
-    .posEP{
-        top: 30%;
-    }
+   
 }
 
 @media only screen and (max-width: 400px) {
@@ -554,17 +534,5 @@ body{
         width: 6em;
     }
 
-    .posLM{
-        top: 60%;
-    }
-
-    
-
-    .posLB{
-        top: 20%;
-    }
-
-    .posEP{
-        top: 30%;
-    }
+   
 }
