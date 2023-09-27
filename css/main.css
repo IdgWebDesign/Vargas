@@ -4029,8 +4029,10 @@ a {
     }
 
     .InsideTitle{
-        font-size: 2em; margin-bottom: 0%;
+        font-size: 2em; 
+        margin-bottom: 0%;
     }
+
 /*# sourceMappingURL=main.css.map */
 
 /* Media Querys*/
@@ -4131,6 +4133,11 @@ a {
     .BInProducts{
         top: 40%;
         right: 10%;
+    }
+
+    .InsideTitle{
+        font-size: 1.8em; 
+        
     }
 }
 
@@ -4247,6 +4254,10 @@ a {
         right: 5%;
     }
 
+    .InsideTitle{
+        font-size: 1.6em; 
+        
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -4378,6 +4389,10 @@ a {
     .textPOP form {
         width: 80%;
         margin-top:2%;
+    }
+    .InsideTitle{
+        font-size: 1.6em; 
+        
     }
 }
 
