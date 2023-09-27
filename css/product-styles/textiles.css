@@ -19,9 +19,7 @@
 body{
     background-color: white;
     position: relative;
-    display:flex; 
-    flex-direction:column;
-    min-height: 100vh;
+    
 }
 .logoClassPage{
     background-color:#f18931;
@@ -34,16 +32,14 @@ body{
 }
 
 .logoClassPage img{
-    width: 4em;
+    width: 3em;
    
 }
 
 .ContainerQuad{
     position: relative;
     margin: 2% 0%;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    min-height: 53vh;
 }
 
 .QuadClassPage{

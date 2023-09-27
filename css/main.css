@@ -3894,7 +3894,7 @@ a {
    
     background-color: #000000;
     width: 100%;
-    height: 5em;
+    height: 8em;
   }
 
   .popON{
@@ -3905,7 +3905,7 @@ a {
     height: 100vh;
     background-color: #00000065;
     z-index: 999;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
   }
@@ -4017,6 +4017,16 @@ a {
         height: 100%;
         object-fit: contain;
     }
+
+    .LInProducts{
+        top: 65%;
+        left: 20%;
+    }
+    
+    .BInProducts{
+        top: 40%;
+        right: 20%;
+    }
 /*# sourceMappingURL=main.css.map */
 
 /* Media Querys*/
@@ -4034,6 +4044,16 @@ a {
     .contVideoGal{
         width: 60%;
         height: 650px;
+    }
+
+    .LInProducts{
+        top: 65%;
+        left: 15%;
+    }
+    
+    .BInProducts{
+        top: 40%;
+        right: 15%;
     }
 }
 
@@ -4097,6 +4117,16 @@ a {
 
     .imgPOP p{
         font-size: 2.2em;
+    }
+
+    .LInProducts{
+        top: 65%;
+        left: 10%;
+    }
+    
+    .BInProducts{
+        top: 40%;
+        right: 10%;
     }
 }
 
@@ -4201,6 +4231,16 @@ a {
 
     .imgPOP{
         background-position: center center;
+    }
+
+    .LInProducts{
+        top: 65%;
+        left: 5%;
+    }
+    
+    .BInProducts{
+        top: 40%;
+        right: 5%;
     }
 
 }

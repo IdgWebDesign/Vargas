@@ -187,7 +187,7 @@
             offset: "90%"
 
         });
-    };
+    }; 
 
 
    /* Masonry
@@ -541,17 +541,7 @@
         });
     };
 
-
-    document.getElementById("close").addEventListener('click', () => {
-
-        $('.popON').addClass("popOFF");
-    
-    
-    
-    
-    
-       });
-    
+  
       
    /* Initialize
     * ------------------------------------------------------ */
