@@ -4027,6 +4027,10 @@ a {
         top: 40%;
         right: 20%;
     }
+
+    .InsideTitle{
+        font-size: 2em; margin-bottom: 0%;
+    }
 /*# sourceMappingURL=main.css.map */
 
 /* Media Querys*/
