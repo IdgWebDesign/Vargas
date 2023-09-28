@@ -674,9 +674,9 @@
             break
             case "VAJILLA":
                 URL1="./lamesa/vajillalogo.jpg";
-                URL2="./lamesa/vl (1).jpeg";
+                URL2="./lamesa/vl (1).jpg";
                 URL3="./lamesa/vl (2).jpeg";
-                URL4="./lamesa/vl (3).jpeg";
+                URL4="./lamesa/vl (3).jpg";
             break
             case "SERVILLETAS":
                 URL1="./lamesa/serv.jpg";
@@ -688,7 +688,13 @@
                 URL1="./lamesa/copalogo.jpg";
                 URL2="./lamesa/cl (1).jpg";
                 URL3="./lamesa/cl (2).jpg";
-                URL4="";
+                URL4="./lamesa/cl (3).jpg";
+            break
+            case "PLATO":
+                URL1="./lamesa/plato.jpg";
+                URL2="./lamesa/pl (1).jpeg";
+                URL3="./lamesa/pl (2).jpeg";
+                URL4="./lamesa/pl (3).jpg";
             break
 
             //La Barra
@@ -709,8 +715,8 @@
             case "DELANTALES":
                 URL1="./elpersonal/delantal.jpg";
                 URL2="./elpersonal/del (1).jpg";
-                URL3="";
-                URL4="";
+                URL3="./elpersonal/del (2).jpg";
+                URL4="./elpersonal/del (3).jpg";
             break
             case "BILL":
                 URL1="./elpersonal/billetera.jpg";
@@ -734,6 +740,12 @@
                 URL3="./merchandising/unic (2).jpg";
                 URL4="./merchandising/unic (3).jpg";
             break
+            case "CLASIC":
+                URL1="./merchandising/clasico.jpg";
+                URL2="./merchandising/clasic (1).jpg";
+                URL3="./merchandising/clasic (2).jpg";
+                URL4="./merchandising/clasic (3).jpg";
+            break
 
             //PACKAGING
 
@@ -754,7 +766,7 @@
 
             //Cajas
             case "MADYCUER":
-                URL1="";
+                URL1="./cajas/mcuero.jpg";
                 URL2="./cajas/mc (1).jpg";
                 URL3="./cajas/mc (2).jpg";
                 URL4="./cajas/mc (3).jpg";
@@ -771,12 +783,12 @@
 
             case "MATE":
                 URL1="./marroquineria/materos.jpg";
-                URL2="./marroquineria/mat (1).jpg";
-                URL3="./marroquineria/mat (2).jpg";
-                URL4="./marroquineria/mat (3).jpg";
+                URL2="./marroquineria/mate (1).jpg";
+                URL3="./marroquineria/mate (2).jpg";
+                URL4="./marroquineria/mate (3).jpg";
             break
             case "MOCHILA":
-                URL1="";
+                URL1="./marroquineria/mochila.jpg";
                 URL2="./marroquineria/moch (1).jpg";
                 URL3="./marroquineria/moch (2).jpg";
                 URL4="./marroquineria/moch (3).jpg";
@@ -785,7 +797,7 @@
                 URL1="./marroquineria/bolso.jpg";
                 URL2="./marroquineria/bol (1).jpg";
                 URL3="./marroquineria/bol (2).jpg";
-                URL4="";
+                URL4="./marroquineria/bol (3).png";
             break
             case "BOLSOBOTELLA":
                 URL1="./marroquineria/bolsobot.jpg";
@@ -809,16 +821,22 @@
                 URL4="./textiles/rem (3).jpg";
             break
             case "GORRA":
-                URL1="";
+                URL1="./textiles/gorras.jpg";
                 URL2="./textiles/gor (1).jpg";
                 URL3="./textiles/gor (2).jpg";
-                URL4="";
+                URL4="./textiles/gor (3).jpg";
             break
             case "CHOM":
                 URL1="./textiles/chomba.jpg";
                 URL2="./textiles/chom (1).jpg";
                 URL3="./textiles/chom (2).jpg";
                 URL4="";
+            break
+            case "DELAN":
+                URL1="./textiles/delantales.jpg";
+                URL2="./textiles/del (1).jpg";
+                URL3="./textiles/del (2).jpg";
+                URL4="./textiles/del (3).jpg";
             break
 
             //PROYECTOS ESPECIALES
@@ -860,16 +878,11 @@
          el: '.swiper-pagination2',
        },
      
-       // Navigation arrows
+       
        navigation: {
-         nextEl: '.swiper-button-next2',
-         prevEl: '.swiper-button-prev2',
-       },
-     
-       // And if we need scrollbar
-       scrollbar: {
-         el: '.swiper-scrollbar2',
-       },
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
       });
          
    

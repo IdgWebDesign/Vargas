@@ -3556,7 +3556,7 @@ footer .row {
 }
 .subEmpresa{
     font-size: 3.8em;
-    line-height: 90%;
+    line-height: 110%;
     font-family: 'EncodedBold'; 
     width: 70%;
     margin-top: 0; 
@@ -3565,7 +3565,7 @@ footer .row {
 }
 .subEmpresaSM{
     font-size: 1.5em;
-    line-height: 90%;
+    line-height: 108%;
     font-family: 'EncodedLight'; 
     width: 50%;
     margin-top: 1%; 
@@ -3880,8 +3880,8 @@ a {
   }
 
   .contVideoGal{
-    width: 40%;
-    height: 700px;
+    width: 45%;
+    height: 600px;
     margin: auto;
   }
   .contVideoGal video{
