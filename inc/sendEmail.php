@@ -24,15 +24,15 @@ if($_POST) {
         $error['message'] = "Por favor, ingrese su mensaje. Debe tener al menos 15 caracteres";
     }
     // Subject
-    if ($subject == '') { $subject = "Contact Form Submission"; }
+    if ($subject == '') { $subject = "Mensaje de la web"; }
 
 
     // Set Message
-    $message .= "Email from: " . $name . "<br />";
-    $message .= "Email address: " . $email . "<br />";
-    $message .= "Message: <br />";
+    $message .= "Nombre: " . $name . "<br />";
+    $message .= "Mail: " . $email . "<br />";
+    $message .= "Mensaje: <br />";
     $message .= $contact_message;
-    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
+    $message .= "<br /> ----- <br />";
 
     // Set From: header
     $from =  $name . " <" . $email . ">";
