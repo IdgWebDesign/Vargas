@@ -847,7 +847,8 @@
                 URL1="pe/gordon.jpg";
             break
             case "PACKSUS":
-                URL1="pe/centurion.jpg";
+                document.querySelector(".swiper").style.display= "none";
+                document.querySelector(".swiperspc").style.display= "block";
             break
             case "LLCUER":
                 URL1="pe/llavero cuero.jpg";
