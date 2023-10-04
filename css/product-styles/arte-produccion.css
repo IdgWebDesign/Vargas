@@ -99,6 +99,14 @@ body{
     opacity: 1;
 }
 
+.descCM{
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    font-family: "EncodedLight";
+    padding: 2% 8%;
+    line-height: 100%;
+}
 
 
 /* CARTAS MENU */
@@ -242,7 +250,9 @@ body{
 
 @media only screen and (max-width: 1100px) {
 
-    
+    .textInside{
+        font-size: 1.1em;
+    }
     
     .autoContLM{
         width: 55em;
@@ -278,7 +288,9 @@ body{
         width: 35em;
     }
 
-    
+    .descCM{
+        font-size: 0.7em;
+    }
 
     .autoContLM{
         width: 50em;
@@ -351,6 +363,10 @@ body{
     .autoCont{
         height: 8em;
         width:40em;
+    }
+
+    .textInside{
+        font-size: 1em;
     }
 }
 
@@ -443,6 +459,13 @@ body{
         position: relative;
     }
 
+    .textInside{
+        font-size: 1.2em;
+    }
+
+    .descCM{
+        font-size: 0.8em;
+    }
 
 }
 

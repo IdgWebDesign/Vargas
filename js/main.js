@@ -651,7 +651,7 @@
             case "TENT":
                 URL1="./lamesa/reservado.jpg";
                 URL2="./lamesa/res (1).jpg";
-                URL3="./lamesa/res (2).png";
+                URL3="./lamesa/res (2).jpg";
                 URL4="./lamesa/res (3).jpg";
             break
             case "TELA":
@@ -830,7 +830,7 @@
                 URL1="./textiles/chomba.jpg";
                 URL2="./textiles/chom (1).jpg";
                 URL3="./textiles/chom (2).jpg";
-                URL4="";
+                URL4="./textiles/chom (3).jpg";
             break
             case "DELAN":
                 URL1="./textiles/delantales.jpg";
