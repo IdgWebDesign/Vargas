@@ -1,55 +1,46 @@
-document.querySelector("#closer").addEventListener('click', () => {
-    document.querySelector(".ContEmergenteSlider").style.display = "none";
-    document.querySelector(".swiper").style.display= "block";
-    document.querySelector(".swiperspc").style.display= "none";
-    document.getElementById("E1").src=" ";
-    document.getElementById("E2").src=" ";
-    document.getElementById("E3").src=" ";
-    document.getElementById("E4").src=" ";
-   
+function removeItems(){
+document.querySelectorAll(".created").forEach( item =>
+ { item.remove();
+  
 });
-const swiper2 = new Swiper('.swiperspc', 
-{
+};
+const swiper1 = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  
+  observer: true,
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
-  },
+     el: '.swiper-pagination',
+   },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  // // Navigation arrows
+   navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+   }
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  // // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
 });
-const swiper1 = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
+
+document.querySelectorAll(".act").forEach(El => El.addEventListener('click', () => {
+  document.querySelector(".ContEmergenteSlider").style.display = "block";
+}))
+
+document.querySelector("#closer").addEventListener('click', () => {
+    document.querySelector(".ContEmergenteSlider").style.display = "none";
+    removeItems();
     
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+    swiper1.slideTo(0, 0);
+    
+});
+
+
+
+
 
  
+

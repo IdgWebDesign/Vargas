@@ -565,306 +565,330 @@
     })();
 
 
+    function addItemSlider(URL){
+        var contPrim= document.getElementById("spcSwiper");
+
+        var slideItem= document.createElement("div");
+        slideItem.className= "swiper-slide created";
+
+        var styleItem= document.createElement("div");
+        styleItem.className= "stylishItem";
+
+        var nuevaImagen = document.createElement("img");
+        nuevaImagen.src = URL;
+
+        contPrim.appendChild(slideItem);
+        slideItem.appendChild(styleItem);
+        styleItem.appendChild(nuevaImagen);
+    }
+
     document.querySelectorAll(".act").forEach(El => El.addEventListener('click', () => {
         document.querySelector(".ContEmergenteSlider").style.display = "block";
 
         var ProductClass= El.id;
-        var URL1= " ";
-        var URL2= " ";
-        var URL3= " ";
-        var URL4= " ";
 
         switch (ProductClass){
 
             //ARTE-PRODUCCION
 
             //Cartas de Menú
-            case "OPERA":  
-                URL1="./cartasmenu/lineaopera.jpg";
-                URL2="./cartasmenu/lo(2).jpg";
-                URL3="./cartasmenu/lo(3).jpg";
-                URL4="./cartasmenu/lo(1).jpg";
+            case "OPERA":
+                addItemSlider("./cartasmenu/lineaopera.jpg"); 
+                addItemSlider("./cartasmenu/lo(2).jpg");
+                addItemSlider("./cartasmenu/lo(3).jpg"); 
+                addItemSlider("./cartasmenu/lo(1).jpg");   
+               
             break;
             case "BLUES":
-                URL1="./cartasmenu/lineablues.jpg";
-                URL2="./cartasmenu/lb(2).jpg";
-                URL3="./cartasmenu/lb(3).jpg  ";
-                URL4="./cartasmenu/lb(1).jpg ";
+                addItemSlider("./cartasmenu/lineablues.jpg"); 
+                addItemSlider("./cartasmenu/lb(2).jpg");
+                addItemSlider("./cartasmenu/lb(3).jpg"); 
+                addItemSlider("./cartasmenu/lb(1).jpg");   
             break
             case "SPECIAL":
-                URL1="./cartasmenu/especiales.jpg";
-                URL2="./cartasmenu/esp(2).jpg";
-                URL3="./cartasmenu/esp(3).jpg";
-                URL4="./cartasmenu/esp(1).jpg";
+                
+                addItemSlider("./cartasmenu/especiales.jpg"); 
+                addItemSlider("./cartasmenu/esp(2).jpg");
+                addItemSlider("./cartasmenu/esp(3).jpg"); 
+                addItemSlider("./cartasmenu/esp(1).jpg"); 
             break
             case "JAZZ":
-                URL1="./cartasmenu/lineajazz.jpg";
-                URL2="./cartasmenu/lj (2).jpg";
-                URL3="./cartasmenu/lj (3).jpg";
-                URL4="./cartasmenu/lj (1).jpg ";
+                addItemSlider("./cartasmenu/lineajazz.jpg"); 
+                addItemSlider("./cartasmenu/lj (2).jpg");
+                addItemSlider("./cartasmenu/lj (3).jpg"); 
+                addItemSlider("./cartasmenu/lj (1).jpg");  
             break
             case "TAP":
-                URL1="./cartasmenu/lineatap.jpg";
-                URL2="./cartasmenu/lt (2).jpg";
-                URL3="./cartasmenu/lt (3).jpg";
-                URL4="./cartasmenu/lt (1).jpg ";
+                addItemSlider("./cartasmenu/lineatap.jpg"); 
+                addItemSlider("./cartasmenu/lt (2).jpg");
+                addItemSlider("./cartasmenu/lt (3).jpg"); 
+                addItemSlider("./cartasmenu/lt (1).jpg");  
             break
 
             //La mesa
             case "CUBRES":
-                URL1="./lamesa/cubresindividuales.jpg";
-                URL2="./lamesa/cubind (1).jpg";
-                URL3="./lamesa/cubind (2).jpg";
-                URL4="./lamesa/cubind (3).jpg";
+                addItemSlider("./lamesa/cubresindividuales.jpg"); 
+                addItemSlider("./lamesa/cubind (2).jpg");
+                addItemSlider("./lamesa/cubind (3).jpg"); 
+                addItemSlider("./lamesa/cubind (1).jpg"); 
             break
             case "BANDEJA":
-                URL1="./lamesa/bandeja.jpg";
-                URL2="./lamesa/b (1).jpg";
-                URL3="./lamesa/b (2).jpg";
-                URL4="./lamesa/b (3).jpg";
+                addItemSlider("./lamesa/bandeja.jpg"); 
+                addItemSlider("./lamesa/b (2).jpg");
+                addItemSlider("./lamesa/b (3).jpg"); 
+                addItemSlider("./lamesa/b (1).jpg");
             break
             case "PORTAD":
-                URL1=" ./lamesa/portad.jpg";
-                URL2="./lamesa/portad (1).jpg";
-                URL3="./lamesa/portad (2).jpg";
-                URL4="./lamesa/portad (3).jpg";
+                addItemSlider("./lamesa/portad.jpg"); 
+                addItemSlider("./lamesa/portad (2).jpg");
+                addItemSlider("./lamesa/portad (3).jpg"); 
+                addItemSlider("./lamesa/portad (1).jpg");
             break
             case "PORTEL":
-                URL1="./lamesa/portaelementos.jpg";
-                URL2="./lamesa/portel (1).jpg";
-                URL3="./lamesa/portel (2).jpg";
-                URL4="./lamesa/portel (3).jpg";
+                addItemSlider("./lamesa/portaelementos.jpg"); 
+                addItemSlider("./lamesa/portel (2).jpg");
+                addItemSlider("./lamesa/portel (3).jpg"); 
+                addItemSlider("./lamesa/portel (1).jpg");
             break
             case "ORO":
-                URL1="./lamesa/librodeoro.jpeg";
-                URL2="./lamesa/ldo (1).jpg";
-                URL3="./lamesa/ldo (2).jpg";
-                URL4="./lamesa/ldo (3).jpg";
+                addItemSlider("./lamesa/librodeoro.jpeg"); 
+                addItemSlider("./lamesa/ldo (2).jpg");
+                addItemSlider("./lamesa/ldo (3).jpg"); 
+                addItemSlider("./lamesa/ldo (1).jpg");
             break
             case "CUERO":
-                URL1="./lamesa/mantelescuero.jpg";
-                URL2="./lamesa/mc (1).jpg";
-                URL3="./lamesa/mc (2).jpg";
-                URL4="./lamesa/mc (3).jpg";
+                addItemSlider("./lamesa/mantelescuero.jpg"); 
+                addItemSlider("./lamesa/mc (2).jpg");
+                addItemSlider("./lamesa/mc (3).jpg"); 
+                addItemSlider("./lamesa/mc (1).jpg");
             break
 
             case "TENT":
-                URL1="./lamesa/reservado.jpg";
-                URL2="./lamesa/res (1).jpg";
-                URL3="./lamesa/res (2).jpg";
-                URL4="./lamesa/res (3).jpg";
+                addItemSlider("./lamesa/reservado.jpg"); 
+                addItemSlider("./lamesa/res (2).jpg");
+                addItemSlider("./lamesa/res (3).jpg"); 
+                addItemSlider("./lamesa/res (1).jpg");
             break
             case "TELA":
-                URL1="./lamesa/mantelestela.jpg";
-                URL2="./lamesa/mt (1).jpg";
-                URL3="./lamesa/mt (2).jpg";
-                URL4="./lamesa/mt (3).jpg";
+                addItemSlider("./lamesa/mantelestela.jpg"); 
+                addItemSlider("./lamesa/mt (2).jpg");
+                addItemSlider("./lamesa/mt (3).jpg"); 
+                addItemSlider("./lamesa/mt (1).jpg");
             break
             case "PORTEL":
-                URL1="./lamesa/portaelementos.jpg";
-                URL2="./lamesa/portel (1).jpg";
-                URL3="./lamesa/portel (2).jpg";
-                URL4="./lamesa/portel (3).jpg";
+                addItemSlider("./lamesa/portaelementos.jpg"); 
+                addItemSlider("./lamesa/portel (2).jpg");
+                addItemSlider("./lamesa/portel (3).jpg"); 
+                addItemSlider("./lamesa/portel (1).jpg");
             break
             case "PAN":
-                URL1="./lamesa/paneras.jpg";
-                URL2="./lamesa/pan (1).jpeg";
-                URL3="./lamesa/pan (2).jpg";
-                URL4="./lamesa/pan (3).jpg";
+                addItemSlider("./lamesa/paneras.jpg"); 
+                addItemSlider("./lamesa/pan (2).jpg");
+                addItemSlider("./lamesa/pan (3).jpg"); 
+                addItemSlider("./lamesa/pan (1).jpeg");
             break
             case "VAJILLA":
-                URL1="./lamesa/vajillalogo.jpg";
-                URL2="./lamesa/vl (1).jpg";
-                URL3="./lamesa/vl (2).jpeg";
-                URL4="./lamesa/vl (3).jpg";
+                addItemSlider("./lamesa/vajillalogo.jpg"); 
+                addItemSlider("./lamesa/vl (2).jpeg");
+                addItemSlider("./lamesa/vl (3).jpg"); 
+                addItemSlider("./lamesa/vl (1).jpg");
             break
             case "SERVILLETAS":
-                URL1="./lamesa/serv.jpg";
-                URL2="./lamesa/serv (1).jpg";
-                URL3="./lamesa/serv (1).png";
-                URL4="./lamesa/serv (2).jpg";
+                addItemSlider("./lamesa/serv.jpg"); 
+                addItemSlider("./lamesa/serv (2).jpg");
+                addItemSlider("./lamesa/serv (1).png"); 
+                addItemSlider("./lamesa/serv (1).jpg");
             break
             case "COPA":
-                URL1="./lamesa/copalogo.jpg";
-                URL2="./lamesa/cl (1).jpg";
-                URL3="./lamesa/cl (2).jpg";
-                URL4="./lamesa/cl (3).jpg";
+                addItemSlider("./lamesa/copalogo.jpg"); 
+                addItemSlider("./lamesa/cl (2).jpg");
+                addItemSlider("./lamesa/cl (3).jpg"); 
+                addItemSlider("./lamesa/cl (1).jpg");
             break
             case "PLATO":
-                URL1="./lamesa/plato.jpg";
-                URL2="./lamesa/pl (1).jpeg";
-                URL3="./lamesa/pl (2).jpeg";
-                URL4="./lamesa/pl (3).jpg";
+                addItemSlider("./lamesa/plato.jpg"); 
+                addItemSlider("./lamesa/pl (2).jpeg");
+                addItemSlider("./lamesa/pl (3).jpg"); 
+                addItemSlider("./lamesa/pl (1).jpeg");
             break
 
             //La Barra
             case "BRMS":
-                URL1="./labarra/barmat.jpg";
-                URL2="./labarra/brmts (1).jpg";
-                URL3="./labarra/brmts (2).jpg";
-                URL4="./labarra/brmts (3).jpg";
+                addItemSlider("./labarra/barmat.jpg"); 
+                addItemSlider("./labarra/brmts (2).jpg");
+                addItemSlider("./labarra/brmts (3).jpg"); 
+                addItemSlider("./labarra/brmts (1).jpg");
             break
             case "FRAP":
-                URL1="./labarra/frapera.jpg";
-                URL2="./labarra/fp (1).jpg";
-                URL3="./labarra/fp (2).jpg";
-                URL4="./labarra/fp (3).jpg";
+                addItemSlider("./labarra/frapera.jpg"); 
+                addItemSlider("./labarra/fp (2).jpg");
+                addItemSlider("./labarra/fp (3).jpg"); 
+                addItemSlider("./labarra/fp (1).jpg");
             break
 
             //El personal
             case "DELANTALES":
-                URL1="./elpersonal/delantal.jpg";
-                URL2="./elpersonal/del (1).jpg";
-                URL3="./elpersonal/del (2).jpg";
-                URL4="./elpersonal/del (3).jpg";
+                addItemSlider("./elpersonal/delantal.jpg"); 
+                addItemSlider("./elpersonal/del (2).jpg");
+                addItemSlider("./elpersonal/del (3).jpg"); 
+                addItemSlider("./elpersonal/del (1).jpg");
             break
             case "BILL":
-                URL1="./elpersonal/billetera.jpg";
-                URL2="./elpersonal/bill (1).jpg";
-                URL3="./elpersonal/bill (2).jpg";
-                URL4="./elpersonal/bill (3).jpg";
+                addItemSlider("./elpersonal/billetera.jpg"); 
+                addItemSlider("./elpersonal/bill (2).jpg");
+                addItemSlider("./elpersonal/bill (3).jpg"); 
+                addItemSlider("./elpersonal/bill (1).jpg");
             break
             case "PORTMOZ":
-                URL1="./elpersonal/portaelementos.jpg";
-                URL2="./elpersonal/pe (1).jpg";
-                URL3="./elpersonal/pe (2).jpg";
-                URL4="./elpersonal/pe (3).jpg";
+                addItemSlider("./elpersonal/portaelementos.jpg"); 
+                addItemSlider("./elpersonal/pe (2).jpg");
+                addItemSlider("./elpersonal/pe (3).jpg"); 
+                addItemSlider("./elpersonal/pe (1).jpg");
             break
 
 
             //MERCHANDISING
 
             case "UNIC":
-                URL1="./merchandising/unico.jpg";
-                URL2="./merchandising/unic (1).jpg";
-                URL3="./merchandising/unic (2).jpg";
-                URL4="./merchandising/unic (3).jpg";
+
+                addItemSlider("./merchandising/unico.jpg"); 
+                addItemSlider("./merchandising/unic (2).jpg");
+                addItemSlider("./merchandising/unic (3).jpg"); 
+                addItemSlider("./merchandising/unic (1).jpg");
             break
             case "CLASIC":
-                URL1="./merchandising/clasico.jpg";
-                URL2="./merchandising/clasic (1).jpg";
-                URL3="./merchandising/clasic (2).jpg";
-                URL4="./merchandising/clasic (3).jpg";
+                addItemSlider("./merchandising/clasico.jpg"); 
+                addItemSlider("./merchandising/clasic (2).jpg");
+                addItemSlider("./merchandising/clasic (3).jpg"); 
+                addItemSlider("./merchandising/clasic (1).jpg");
             break
 
             //PACKAGING
 
             //Bolsas
             case "LIENZO":
-                URL1="./bolsas/lienzo.jpg";
-                URL2="./bolsas/lien (1).jpg";
-                URL3="./bolsas/lien (2).jpg";
-                URL4="./bolsas/lien (3).jpg";
+
+                addItemSlider("./bolsas/lienzo.jpg"); 
+                addItemSlider("./bolsas/lien (2).jpg");
+                addItemSlider("./bolsas/lien (3).jpg"); 
+                addItemSlider("./bolsas/lien (1).jpg");
             break
             case "BOLESP":
-                URL1="./bolsas/bolespecial.jpg";
-                URL2="./bolsas/bolesp (1).jpg";
-                URL3="./bolsas/bolesp (2).jpg";
-                URL4="./bolsas/bolesp (3).jpg";
+                addItemSlider("./bolsas/bolespecial.jpg"); 
+                addItemSlider("./bolsas/bolesp (2).jpg");
+                addItemSlider("./bolsas/bolesp (3).jpg"); 
+                addItemSlider("./bolsas/bolesp (1).jpg");
             break
 
 
             //Cajas
             case "MADYCUER":
-                URL1="./cajas/mcuero.jpg";
-                URL2="./cajas/mc (1).jpg";
-                URL3="./cajas/mc (2).jpg";
-                URL4="./cajas/mc (3).jpg";
+                addItemSlider("./cajas/mcuero.jpg"); 
+                addItemSlider("./cajas/mc (2).jpg");
+                addItemSlider("./cajas/mc (3).jpg"); 
+                addItemSlider("./cajas/mc (1).jpg");
             break
             case "CARTPREM":
-                URL1="./cajas/cartonprem.jpg";
-                URL2="./cajas/cp (1).jpg";
-                URL3="./cajas/cp (2).jpg";
-                URL4="./cajas/cp (3).jpg";
+                addItemSlider("./cajas/cartonprem.jpg"); 
+                addItemSlider("./cajas/cp (2).jpg");
+                addItemSlider("./cajas/cp (3).jpg"); 
+                addItemSlider("./cajas/cp (1).jpg");
             break
 
 
             //MARROQUINERIA
 
             case "MATE":
-                URL1="./marroquineria/materos.jpg";
-                URL2="./marroquineria/mate (1).jpg";
-                URL3="./marroquineria/mate (2).jpg";
-                URL4="./marroquineria/mate (3).jpg";
+                addItemSlider("./marroquineria/materos.jpg"); 
+                addItemSlider("./marroquineria/mate (2).jpg");
+                addItemSlider("./marroquineria/mate (1).jpg");
             break
             case "MOCHILA":
-                URL1="./marroquineria/mochila.jpg";
-                URL2="./marroquineria/moch (1).jpg";
-                URL3="./marroquineria/moch (2).jpg";
-                URL4="./marroquineria/moch (3).jpg";
+                addItemSlider("./marroquineria/mochila.jpg"); 
+                addItemSlider("./marroquineria/moch (2).jpg");
+                addItemSlider("./marroquineria/moch (3).jpg"); 
+                addItemSlider("./marroquineria/moch (1).jpg");
             break
             case "BOLSO":
-                URL1="./marroquineria/bolso.jpg";
-                URL2="./marroquineria/bol (1).jpg";
-                URL3="./marroquineria/bol (2).jpg";
-                URL4="./marroquineria/bol (3).png";
+                addItemSlider("./marroquineria/bolso.jpg"); 
+                addItemSlider("./marroquineria/bol (2).jpg");
+                addItemSlider("./marroquineria/bol (3).png"); 
+                addItemSlider("./marroquineria/bol (1).jpg");
             break
             case "BOLSOBOTELLA":
-                URL1="./marroquineria/bolsobot.jpg";
-                URL2="./marroquineria/bolbot (1).jpg";
-                URL3="./marroquineria/bolbot (2).jpg";
-                URL4="./marroquineria/bolbot (3).jpg";
+                addItemSlider("./marroquineria/bolsobot.jpg"); 
+                addItemSlider("./marroquineria/bolbot (2).jpg");
+                addItemSlider("./marroquineria/bolbot (3).jpg"); 
+                addItemSlider("./marroquineria/bolbot (1).jpg");
             break
             case "NECESER":
-                URL1="./marroquineria/neceser.jpg";
-                URL2="./marroquineria/nec (1).jpg";
-                URL3="./marroquineria/nec (2).jpg";
-                URL4="./marroquineria/nec (3).jpg";
+                addItemSlider("./marroquineria/neceser.jpg"); 
+                addItemSlider("./marroquineria/nec (2).jpg");
+                addItemSlider("./marroquineria/nec (3).jpg"); 
+                addItemSlider("./marroquineria/nec (1).jpg");
+            break
+            case "RIÑO":
+                addItemSlider("./marroquineria/riño.jpg"); 
             break
 
 
             //TEXTILES
             case "REME":
-                URL1="./textiles/remera.jpg";
-                URL2="./textiles/rem (1).jpg";
-                URL3="./textiles/rem (2).jpg";
-                URL4="./textiles/rem (3).jpg";
+                addItemSlider("./textiles/remera.jpg"); 
+                addItemSlider("./textiles/rem (2).jpg");
+                addItemSlider("./textiles/rem (3).jpg"); 
+                addItemSlider("./textiles/rem (1).jpg");
             break
             case "GORRA":
-                URL1="./textiles/gorras.jpg";
-                URL2="./textiles/gor (1).jpg";
-                URL3="./textiles/gor (2).jpg";
-                URL4="./textiles/gor (3).jpg";
+                addItemSlider("./textiles/gorras.jpg"); 
+                addItemSlider("./textiles/gor (2).jpg");
+                addItemSlider("./textiles/gor (3).jpg"); 
+                addItemSlider("./textiles/gor (1).jpg");
             break
             case "CHOM":
-                URL1="./textiles/chomba.jpg";
-                URL2="./textiles/chom (1).jpg";
-                URL3="./textiles/chom (2).jpg";
-                URL4="./textiles/chom (3).jpg";
+                addItemSlider("./textiles/chomba.jpg"); 
+                addItemSlider("./textiles/chom (2).jpg");
+                addItemSlider("./textiles/chom (3).jpg"); 
+                addItemSlider("./textiles/chom (1).jpg");
             break
             case "DELAN":
-                URL1="./textiles/delantales.jpg";
-                URL2="./textiles/del (1).jpg";
-                URL3="./textiles/del (2).jpg";
-                URL4="./textiles/del (3).jpg";
+                addItemSlider("./textiles/delantales.jpg"); 
+                addItemSlider("./textiles/del (2).jpg");
+                addItemSlider("./textiles/del (3).jpg"); 
+                addItemSlider("./textiles/del (1).jpg");
             break
 
             //PROYECTOS ESPECIALES
             case "CAJASMIR":
-                URL1="pe/caja smir.jpg";
+                addItemSlider("./pe/caja smir.jpg");
+                addItemSlider("./pe/smir (1).jpg");
+               
             break
             case "CAJAGOR":
-                URL1="pe/gordon.jpg";
+                addItemSlider("./pe/gordon.jpg");
             break
             case "PACKSUS":
-                document.querySelector(".swiper").style.display= "none";
-                document.querySelector(".swiperspc").style.display= "block";
+                addItemSlider("./pe/centurion.jpg");
+                addItemSlider("./pe/ps (1).jpg");
+                addItemSlider("./pe/ps (2).jpg");
+                addItemSlider("./pe/ps (3).jpg");
             break
             case "LLCUER":
-                URL1="pe/llavero cuero.jpg";
+                addItemSlider("./pe/llavero cuero.jpg");
             break
             case "TYC":
-                URL1="pe/telaycuero.jpg";
+                addItemSlider("./pe/telaycuero.jpg");
+                addItemSlider("./pe/tyc (1).jpg");
+                addItemSlider("./pe/tyc (2).jpg");
+                
             break
             case "CANSMIR":
-                URL1="pe/canasta smir.jpg";
+                addItemSlider("./pe/canasta smir.jpg");
             break
         }
 
-        document.getElementById("E1").src=URL1;
-        document.getElementById("E2").src=URL2;
-        document.getElementById("E3").src=URL3;
-        document.getElementById("E4").src=URL4;
+        
+        
     }));
 
     
